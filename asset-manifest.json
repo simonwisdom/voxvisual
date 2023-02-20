@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/voxvisual/static/css/main.e6c13ad2.css",
+    "main.js": "/voxvisual/static/js/main.be414adc.js",
+    "static/js/787.013f1a05.chunk.js": "/voxvisual/static/js/787.013f1a05.chunk.js",
+    "index.html": "/voxvisual/index.html",
+    "main.e6c13ad2.css.map": "/voxvisual/static/css/main.e6c13ad2.css.map",
+    "main.be414adc.js.map": "/voxvisual/static/js/main.be414adc.js.map",
+    "787.013f1a05.chunk.js.map": "/voxvisual/static/js/787.013f1a05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.be414adc.js"
+  ]
+}
