@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/voxvisual/static/css/main.e6c13ad2.css",
-    "main.js": "/voxvisual/static/js/main.e3994ab0.js",
+    "main.js": "/voxvisual/static/js/main.1f91df37.js",
     "static/js/787.013f1a05.chunk.js": "/voxvisual/static/js/787.013f1a05.chunk.js",
-    "static/media/sophia-desk-blade-runner.png": "/voxvisual/static/media/sophia-desk-blade-runner.42ef770cf2f4cf1f4965.png",
     "index.html": "/voxvisual/index.html",
     "main.e6c13ad2.css.map": "/voxvisual/static/css/main.e6c13ad2.css.map",
-    "main.e3994ab0.js.map": "/voxvisual/static/js/main.e3994ab0.js.map",
+    "main.1f91df37.js.map": "/voxvisual/static/js/main.1f91df37.js.map",
     "787.013f1a05.chunk.js.map": "/voxvisual/static/js/787.013f1a05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.e3994ab0.js"
+    "static/js/main.1f91df37.js"
   ]
 }
