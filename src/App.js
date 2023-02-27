@@ -93,7 +93,7 @@ function VoiceVisualization() {
  const cubes = [];
  for (let i = 0; i < 16; i++) {
    const cube = (
-     <mesh key={i} position={[(i - 16) * 2, -5, -20]} userData={{ triggered: false }}>
+     <mesh key={i} position={[5+(i - 16) * 2, 0, -20]} userData={{ triggered: false }}>
        <boxBufferGeometry args={[1, 1, 1]} />
        <meshStandardMaterial color={'red'} />
      </mesh>
@@ -105,8 +105,8 @@ function VoiceVisualization() {
    <>
      <group ref={groupRef}>
        {[...Array(128)].map((_, i) => (
-         <mesh key={i} position={[15 + (i - 64) / 3, 8, -45 ]}>
-           <boxBufferGeometry args={[0.1, 10, 0.2]} />
+         <mesh key={i} position={[(i - 64) / 3, 8, -30 ]}>
+           <boxBufferGeometry args={[0.1, 25, 0.2]} />
            <meshStandardMaterial color={new THREE.Color().setHSL(i / 128, 1, 0.5)} />
          </mesh>
        ))}
@@ -124,7 +124,7 @@ function App() {
   return (
     <div style={{ height: '100vh' }}>
     <Canvas>
-    <BackgroundImage url={require('./assets/sophia-desk-blade-runner.png')} />
+    {/* <BackgroundImage url={require('./assets/sophia-desk-blade-runner.png')} /> */}
 
       <VoiceVisualization />
       <ambientLight />
